@@ -1,2 +1,9 @@
 # calculadora-javascript
-Calculadora usando 💻 Tecnologias #html, css e javascript
+Calculadora usando 
+💻 Tecnologias #
+
+- Html
+- Css 
+- Javascript
+
+https://bruiinsilva.github.io/calculadora-javascript/
