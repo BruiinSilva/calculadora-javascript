@@ -3,8 +3,8 @@ Calculadora usando
 
 💻 Tecnologias 
 
-# Html
-# Css 
-# Javascript
+- Html
+- Css 
+- Javascript
 
 https://bruiinsilva.github.io/calculadora-javascript/
