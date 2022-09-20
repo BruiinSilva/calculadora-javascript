@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bruno C.Gomes">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1> 
+    <br><br><br>
+    <main class="calculadora container">
+      
+      <section class="resultado container">
+        <!-- <section class="mode"></section> -->
+        <input id="result" value="" type="text" readonly />
+      </section>
+      
+      <div class="teclas container">
+        <input type="button" value="*'" onclick="botao('**')" />
+        <input type="button" id="del" value="Del" onclick="retirar()" />
+        <input type="button" value="%" onclick="botao(value)" />
+        <input type="button" value="C" onclick="limpar()" />
+        <input type="button" value="7" onclick="botao(value)" />
+        <input type="button" value="8" onclick="botao(value)" />
+        <input type="button" value="9" onclick="botao(value)" />
+        <input
+          type="button"
+          value="x"
+          onclick="botao('*')"
+          class="operadores-basicos"
+        />
+        <input type="button" value="4" onclick="botao(value)" />
+        <input type="button" value="5" onclick="botao(value)" />
+        <input type="button" value="6" onclick="botao(value)" />
+        <input
+          type="button"
+          value="-"
+          onclick="botao(value)"
+          class="operadores-basicos"
+        />
+        <input type="button" value="1" onclick="botao(value)" />
+        <input type="button" value="2" onclick="botao(value)" />
+        <input type="button" value="3" onclick="botao(value)" />
+        <input
+          type="button"
+          value="/"
+          onclick="botao(value)"
+          class="operadores-basicos"
+        />
+        <input type="button" value="0" onclick="botao(value)" />
+        <input type="button" value="." onclick="botao(value)" />
+        <input type="button" value="=" onclick="calc()" id="igual" />
+        <input
+          type="button"
+          value="+"
+          onclick="botao(value)"
+          class="operadores-basicos"
+        />
+      </div>
+    </main>
+    <br><br><br>
+    <h2>Bruno C.Gomes da Silva </h2>
+    <script src="script.js"></script>
+</body>
+</html>
